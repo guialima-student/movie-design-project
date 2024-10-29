@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 846px;
+    width: 1176px;
     background-color: #1E1F28;
     padding: 64px 96px;
     gap: 36px;
@@ -69,12 +69,59 @@ body {
     align-items: center;
 }
 
-.filmes{
+.filmes{ /* div dos filmes*/
     display: flex;
     justify-content: space-between;
 }
 
 #poster {
-    width: 192px;
+    width: 280px;
     height: 432.77px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+.filme { 
+    margin: 0px 36px
+}
+
+.filme h2{
+    color: white;
+    font-family: Outfit;
+    margin-bottom: 12px;
+}
+
+#estrela {
+    color: yellow;
+    fill: var(--Cores-Amarelo, #FEEA35);
+    background-image: yellow;
+}
+
+.btn-assistir {
+    width: 280px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    background: #2b2b37;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-assistir a {
+    margin: 0px 0px 0px 15px;
+}
+
+#play-icon {
+    color: #9F55FF;
+    margin: 0px 15px;
+    background-color: #1e1f28;
+    border-radius: 100px;
+    padding: 8px;
+    flex-shrink: 0;
+}
+
+.phosphor-icon {
+    fill: #9F55FF;
 }
