@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(91deg, #9F55FF 0.99%, #FF46B9 102.1%);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 846px;
+    background-color: #1E1F28;
+    padding: 64px 96px;
+    gap: 36px;
+}
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-recomendacao {
+    display: flex;
+    padding: 8px 16px;
+    width: 220;
+    height: 48px;
+    align-items: center;
+    background: linear-gradient(91deg, #9F55FF 0.99%, #FF46B9 102.1%);
+    text-decoration: none;
+    color: white;
+    font-family: Outfit, sans-serif;
+    border-radius: 5px;
+}
+
+.btn-recomendacao:hover {
+    transform: scale(1.005);
+    box-shadow: 0px 0px 10px rgb(62, 33, 100);
+}
+
+#logo {
+    margin-left: 5px;
+    padding: 3px;
+    background-color: rgb(255,255,255,0.2);
+    border: 0px solid white;
+    border-radius: 100%;
+}
+
+.catalogo header {
+    display: flex;
+    margin-bottom: 12px;
+    justify-content: space-between;
+    font-family: Outfit;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+
+.filmes{
+    display: flex;
+    justify-content: space-between;
+}
+
+#poster {
+    width: 192px;
+    height: 432.77px;
+}
