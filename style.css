@@ -85,6 +85,23 @@ body {
     margin: 0px 36px
 }
 
+.filme header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.filme header div {
+    font-size: 25px;
+    color: yellow;
+}
+
+.filme header div i {
+    margin: 5px;
+    text-shadow: 0px 0px 5px #FEEA35 ;
+}
+
 .filme h2{
     color: white;
     font-family: Outfit;
